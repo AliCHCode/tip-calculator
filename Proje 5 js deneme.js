@@ -11,7 +11,7 @@ let box2 = document.getElementById('box-button2');
 let box3 = document.getElementById('box-button3');
 let box4 = document.getElementById('box-button4');
 let box5 = document.getElementById('box-button5');
-let box6 = document.getElementById('box-button6');
+let box6 = document.getElementById('custom-bill');
 
 
 p.addEventListener('input',function(){

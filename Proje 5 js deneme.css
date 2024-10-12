@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    margin: 35px auto;
+    background-color: bisque;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+}
+
+.text-label {
+    width: 200px;
+    display: block;
+    border: 1px solid #00474B;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.inputs-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #00474B;
+    width: 200px;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input {
+    width: 25%;
+    text-align: end;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.box-container {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.box-in {
+    text-align: center;
+    width: 90px;
+    background-color: #00474B;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: 1px solid #00474B;
+}
+
+.box-in:hover{
+    background-color: white;
+    color: #00474B;
+    border: 1px solid #00474B;
+}
+
+.box-in:last-child {
+    background-color: white;
+}
+
+#custom-bill {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#custom-bill::placeholder {
+    color: #5C6F70;
+}
+
+#custom-bill:focus::placeholder {
+    opacity: 0.0;
+}
+
+#hidden-text {
+    display: none;
+    background-color: yellow;
+    color: #00474B;
+    padding: 2px 0;
+}
+
+.result-container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result-section{
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.result-in-section{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reset-button{
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #00474B;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.reset-button:hover{
+    background-color: #00474B;
+    color: white;
+}

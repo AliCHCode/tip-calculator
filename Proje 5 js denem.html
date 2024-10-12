@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Proje 5 js deneme.css">
+</head>
+
+<body>
+
+    <label class="text-label" for="input-bill">Bill</label>
+    <label class="inputs-label">
+        <img src="/icon-dollar.svg" alt="Dollar">
+        <input id="input-bill" type="number" placeholder="0.00">
+    </label>
+
+    <label class="text-label" for="input-person">Number of people
+        <p id="hidden-text">can't be zero!</p>
+    </label>
+    <label class="inputs-label" for="input-person">
+        <img src="/icon-person.svg" alt="Person">
+        <input id="input-person" type="number" placeholder="0">
+    </label>
+
+    <div class="box-container">
+        <div id="box-button1" class="box-in box-5">5%</div>
+        <div id="box-button2" class="box-in box-10">10%</div>
+        <div id="box-button3" class="box-in box-15">15%</div>
+        <div id="box-button4" class="box-in box-25">25%</div>
+        <div id="box-button5" class="box-in box-50">50%</div>
+        <label id="box-button6" for="custom-bill" class="box-in box-custom"><input id="custom-bill" type="number"
+                placeholder="Custom"></label>
+    </div>
+
+    <div class="result-container">
+        <div class="result-section">
+            <div class="result-in-section">
+                <div>
+                    <p>Tip Amount</p>
+                    <p>/ person</p>
+                </div>
+                <div id="tipamount-result">
+                    ex: $4.75
+                </div>
+            </div>
+            <div class="result-in-section">
+                <div>
+                    <p>Total</p>
+                    <p>/ person</p>
+                </div>
+                <div id="total-result">ex: $9.50</div>
+            </div>
+        </div>
+        <div class="reset-button">Reset</div>
+    </div>
+    <script src="/Proje 5 js deneme.js"></script>
+</body>
+
+</html>
